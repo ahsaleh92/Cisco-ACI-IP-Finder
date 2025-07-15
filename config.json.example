@@ -1,0 +1,19 @@
+# Cisco ACI IP Finder Configuration Example
+# Copy this file to config.json and update with your settings
+
+{
+  "apic": {
+    "url": "https://your-apic.example.com",
+    "username": "your-username",
+    "password": "your-password",
+    "verify_ssl": false
+  },
+  "output": {
+    "format": "table",
+    "verbose": false
+  },
+  "discovery": {
+    "include_offline_endpoints": false,
+    "max_results": 1000
+  }
+}
